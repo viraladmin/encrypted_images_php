@@ -1,0 +1,11 @@
+{
+   "name": "viraladmin/encrypted_images_php",
+   "description": "A php implementation of the encrypted images library.",
+   "type": "library",
+   "require": {},
+   "autoload": {
+       "psr-4": {
+           "encrypted_images_php\\": "src/"
+       }
+   }
+}
