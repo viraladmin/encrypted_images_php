@@ -3,7 +3,7 @@
 **Author**: Bruce Bates  
 **Copyright**: 2023  
 **X**: @thebrucebates  
-**Website**: [https://encryptedimages.com](https://encryptedimages.com)
+**Website**: [https://encryptedimages.art](https://encryptedimages.art)
 
 ## License
 
