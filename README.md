@@ -9,6 +9,11 @@
 
 Encrypted Images PHP is distributed under the MIT License. [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Installation
+
+```text
+composer require viraladmin/encrypted_images_php
+```
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -75,6 +80,7 @@ Encrypt a string using AES-128-CBC encryption and verify integrity to protect ag
 **Example Usage:**
 
 ```php
+require_once 'vendor/autoload.php';
 use encrypted_images_php\encryption\text;
 
 // Initialize the class
@@ -110,6 +116,7 @@ Encrypt a string and embed it into an image with a watermark.
 **Example Usage:**
 
 ```php
+require_once 'vendor/autoload.php';
 use encrypted_images_php\encryption\images;
 
 // Initialize the class
@@ -138,6 +145,7 @@ Decrypt an encrypted text and return the original plaintext.
 **Example Usage:**
 
 ```php
+require_once 'vendor/autoload.php';
 use encrypted_images_php\decryption\text;
 
 // Initialize the class
@@ -170,6 +178,7 @@ Decrypt data from an image and return the original plaintext.
 **Example Usage:**
 
 ```php
+require_once 'vendor/autoload.php';
 use encrypted_images_php\decryption\images;
 
 // Initialize the class
