@@ -1,11 +1,23 @@
 {
-   "name": "viraladmin/encrypted_images_php",
-   "description": "A php implementation of the encrypted images library.",
-   "type": "library",
-   "require": {},
-   "autoload": {
-       "psr-4": {
-           "encrypted_images_php\\": "src/"
-       }
-   }
+    "name": "viraladmin/encrypted_images_php",
+    "description": "Encrypted Images PHP is a PHP library designed for encrypting text into images and decrypting images back into text.",
+    "type": "library",
+    "keywords": ["encryption", "images", "PHP"],
+    "homepage": "https://github.com/viraladmin/encrypted_images_php/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruce Bates",
+            "email": "00purple@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "encrypted_images_php\\": "src/"
+        }
+    }
 }
